@@ -1,6 +1,2 @@
-from itertools import count
+import Stuff
 
-
-count1 = [[ item for item in input("Enter the list items : ").split()]]
-print(count1.count)
-print(count1)
