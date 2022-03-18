@@ -9,10 +9,12 @@ curr_password = str(input("Password: "))
 correct = False
 
 index = 0
-for username in usernames:
-    if curr_username == username and curr_password == passwords[index]:
-        correct = True
+for x in usernames:
+    if curr_username == usernames and passwords == passwords[index]:
+        correct: True
+        break
     index = index + 1
+
 
 if correct == True:
     print("Welcome, " + curr_username)
