@@ -1,6 +1,6 @@
 import random as rand
 
-print("stuff")
+print("stuff") 
 
 print("Submitted By; Dan Joshua M. Tagaan_IT1R12")
 
