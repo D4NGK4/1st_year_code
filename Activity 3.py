@@ -1,5 +1,7 @@
 import random as rand
 
+print("stuff")
+
 print("Submitted By; Dan Joshua M. Tagaan_IT1R12")
 
 lives = 3
