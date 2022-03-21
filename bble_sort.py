@@ -1,4 +1,6 @@
 #copied from github
+import numpy as np
+import random
 
 def bubbleSort(array, *args):
     size = len(array)
@@ -11,5 +13,11 @@ def bubbleSort(array, *args):
                 swapped = True
         if not swapped:
             break
+
+x = np.random.randint(0,100,50)
+y = [i for i in bubbleSort(x)]
+last = y[-1][0]
+
+print(last)
 
 #How to use this???? kjk
