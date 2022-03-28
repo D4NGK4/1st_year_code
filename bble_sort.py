@@ -14,7 +14,7 @@ def bubbleSort(array, *args):
         if not swapped:
             break
 
-x = np.random.randint(0,100,50)
+x = np.random.randint(0,100,1000)
 y = [i for i in bubbleSort(x)]
 last = y[-1][0]
 
