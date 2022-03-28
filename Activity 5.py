@@ -1,6 +1,5 @@
-print('Submitted by: Dan Joshua M. Tagaan')
-print('')
-print('')
+print('Submitted by: Dan Joshua M. Tagaan\n\n')
+
 
 num1 = float(input('Enter first number: '))
 num2 = float(input('Enter second number: '))
@@ -18,7 +17,7 @@ def multiply(mul1, mul2):
     return mul1 * mul2
     
 
-choice = input(print('Select an operator: \n A. Add \n B. Minus \n C. Divide \n D. Multiply \n : '))
+choice = input('Select an operator: \n A. Add \n B. Minus \n C. Divide \n D. Multiply \n : ')
 
 if choice == 'A':
     print(str(num1) + ' + ' + str(num2) + ' = ', addition(num1,num2))
