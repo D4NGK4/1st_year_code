@@ -16,8 +16,9 @@ def divide(div1,div2):
 
 def multiply(mul1, mul2):
     return mul1 * mul2
+    
 
-choice = input(print('Select an operator: \n A. Add \n B. Minus \n C. Divide \n D. Multiply '))
+choice = input(print('Select an operator: \n A. Add \n B. Minus \n C. Divide \n D. Multiply \n : '))
 
 if choice == 'A':
     print(str(num1) + ' + ' + str(num2) + ' = ', addition(num1,num2))
@@ -32,6 +33,3 @@ elif choice == 'D':
     print(str(num1) + ' * ' + str(num2) + ' = ' + multiply(num1,num2))
 else:
     print('Invalid Input')
-
-
-
