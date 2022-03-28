@@ -1,4 +1,3 @@
-#Gif, dili diay global ang function??
 print('Submitted by: Dan Joshua M. Tagaan')
 print('')
 print('')
