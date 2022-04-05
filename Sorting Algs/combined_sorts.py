@@ -1,3 +1,6 @@
+#Gif, how do i use my own list on the sorting stuff? Like i have that input func above and i want to-
+#use the numbers on the list there in the sorting thing.
+
 print('Enter 10 integers: ')
 
 list = []
@@ -37,5 +40,3 @@ def insertion_sort(A):
 			else:
 				break
 
-#Gif, how do i use my own list on the sorting stuff? Like i have that input func above and i want to-
-#use the numbers on the list there in the sorting thing.
