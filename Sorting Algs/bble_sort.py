@@ -1,6 +1,11 @@
 import numpy as np
 import random
 
+list = []
+for i in range(10):
+    nums = int(input())
+    list.append(nums)
+
 def bubbleSort(array, *args):
     size = len(array)
     for i in range(size):
