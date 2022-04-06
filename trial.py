@@ -1,1 +1,0 @@
-print('bahog utin si Abegail')

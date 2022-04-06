@@ -1,25 +1,24 @@
-import numpy as np
-import random
+print('Bubble Sort')
+print('')
+print('Submitted by: Dan Joshua M. Tagaan')
+print('')
 
+print('Enter 10 integers: ')
 list = []
 for i in range(10):
     nums = int(input())
     list.append(nums)
 
-def bubbleSort(array, *args):
-    size = len(array)
-    for i in range(size):
-        swapped = False
-        for j in range(size - i - 1):
-            yield array, j, j+1, -1, -1
-            if array[j] > array[j + 1]:
-                array[j], array[j + 1] = array[j + 1], array[j]
-                swapped = True
-        if not swapped:
-            break
+for i in range(len(list)-1):
+    print(list)
+    for j in range (len(list)-1-i):
+        if list[j] > list[j+1]:
+            list[j+1], list[j] = list[j], list[j+1]
 
-x = np.random.randint(0,100,5)
-y = [i for i in bubbleSort(x)]
-last = y[-1][0]
 
-print(last)
+print('')
+print('Sorted list: ')
+print(list)
+print('Max: ', max(list))
+print('Min: ', min(list))
+print('Sum: ', sum(list))

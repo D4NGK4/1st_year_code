@@ -1,5 +1,7 @@
 #Gif, how do i use my own list on the sorting stuff? Like i have that input func above and i want to-
 #use the numbers on the list there in the sorting thing.
+import numpy as np
+import random
 
 print('Enter 10 integers: ')
 
@@ -7,6 +9,7 @@ list = []
 for i in range(10):
     nums = int(input(''))
     list.append(nums)
+	
 print('')
 print('Unsorted list: ' + str(list))
 print('')
@@ -22,6 +25,12 @@ def bubbleSort(array, *args):
                 swapped = True
         if not swapped:
             break
+
+x = np.random.randint(0,100,5)
+y = [i for i in bubbleSort(x)]
+last = y[-1][0]
+
+print(last)
 
 def selection_sort(A):
 	for i in range (0, len(A) - 1):
