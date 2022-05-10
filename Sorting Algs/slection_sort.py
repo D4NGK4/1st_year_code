@@ -1,6 +1,7 @@
-import numpy as np
-import random
+print('Selection Sort')
+print('')
 
+print('Enter 10 integers: ')
 list = []
 for i in range(10):
     nums = int(input())
@@ -15,4 +16,9 @@ def selection_sort(A):
 		if minIndex != i:
 			A[i], A[minIndex] = A[minIndex], A[i]
 
-x = np.random.randint(0,100,5)
+print('')
+selection_sort(list)
+print(list)
+print('Max: ', max(list))
+print('Min: ', min(list))
+print('Sum: ', sum(list))
