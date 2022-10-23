@@ -3,7 +3,6 @@ print('')
 print('Submitted by: Dan Joshua M. Tagaan')
 print('')
 
-
 num_of_inputs = int(input('Enter number of inputs: '))
 
 print('Enter 10 integers: ')
