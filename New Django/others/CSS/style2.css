@@ -1,0 +1,20 @@
+#style1 {
+    background: yellow;
+}
+
+#style2{
+    background: red;
+}
+
+#style3{
+    background: blue;
+}
+
+.rotate{
+    transform: rotateX(180);
+}
+
+.space{
+    margin-left: 20px;
+    margin-right: 20px;
+}
